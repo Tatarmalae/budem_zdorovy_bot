@@ -1,0 +1,23 @@
+{
+  "name": "budem_zdorovy_bot",
+  "version": "1.0.0",
+  "description": "Будем здоровы",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Rustam Syubkaev",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.3",
+    "log4js": "^6.3.0",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "telegraf": "^4.0.1"
+  },
+  "devDependencies": {
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0"
+  }
+}
