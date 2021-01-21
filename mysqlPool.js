@@ -9,7 +9,6 @@ let pool = {};
 
 pool.connectSphinx = mysql.createPool(SPHINX);
 pool.connectSphinx.getConnection(async (err, connection) => {
-  connection.query(`SET NAMES utf8mb4`);
   if (err) throw err;
   connection.release();
 });
